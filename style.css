@@ -1,9 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Zen+Kurenaido&display=swap');
 
 :root {
-  --color-primary: rgb(204, 203, 219);
-  --color-secondary: rgb(50, 48, 51);
-  --color-img-bg: rgb(30, 29, 31);
+  background:
+  
+  radial-gradient(ellipse at 20% 20%, #0454ff 0%, transparent 70%),
+  radial-gradient(ellipse at 60% 20%, #30adf5 0%, transparent 70%),
+  radial-gradient(ellipse at 100% 20%, #615e5e 0%, transparent 70%),
+  radial-gradient(ellipse at 100% 100%, #646161 0%, transparent 70%),
+  radial-gradient(ellipse at 20% 100%, #636161 0%, transparent 70%);
+background-blend-mode:screen;
+  
 }
 
 body {
@@ -34,7 +40,7 @@ li {
 
 input,
 button {
-  background-color: var(--color-primary);
+  background-color: azure;
   color: var(--color-secondary);
   font-family: 'Zen Kurenaido', sans-serif;
   outline: none;
@@ -47,6 +53,7 @@ h1 {
 
 p {
   margin: 0;
+  color: aliceblue;
 }
 
 img {
@@ -95,6 +102,7 @@ img {
 
 #query {
   flex: 1;
+ 
 }
 
 #results {
@@ -119,4 +127,11 @@ img {
 .poster {
   background-color: var(--color-img-bg);
   height: 177px;
+}
+
+h1
+{
+
+color: aliceblue;
+
 }
